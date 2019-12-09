@@ -3,7 +3,6 @@ package com.example.demo;
 import javax.persistence.Entity;
 import java.io.Serializable;
 
-@Entity
 public class User implements Serializable {
     public String name;
     public int age;
